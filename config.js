@@ -1,176 +1,192 @@
 const config = {
   "meta": {
-    "pageTitle": "Win $400 Blue Jays Tickets - Summer Game Night Giveaway!",
-    "navBrandLogoText": "Julian Kashani",
-    "privacyPolicyLink": "https://property.ca/privacy"
+    "pageTitle": "Win a $400 Wine Night in Leaside – Free Entry",
+    "navBrandLogoText": "Chantel Crisp",
+    "privacyPolicyLink": "https://chantelcrisp.com/privacy.html"
   },
   "giveaway": {
-    "heroHeadline": "Win <span class='highlight'>Free Toronto Blue Jays Tickets</span> for an Epic Summer Game Night!",
-    "heroSubheadline": "Score two premium seats to see the Toronto Blue Jays take on the Texas Rangers, valued at $400! Make your summer unforgettable with this all-star night out. Entry closes July 25th, winner picked July 29th.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3x4pjwf8h1rma0cqhn6tw7t808.jpg",
-    "promotionDates": "Enter from June 27th to July 25th, 2025 - winner announced July 29th!",
-    "endDate": "2026-12-31T23:59:59.000Z",
+    "heroHeadline": "Win <span class='highlight'>A Wine Night for Two</span> in Leaside!",
+    "heroSubheadline": "Dine and sip at The Daughter or Domaine Mamo. $400 value. Fast, free entry. Local winners only. Don’t miss out.",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/pckweehn29rme0csrqza926vz0.jpg",
+    "promotionDates": "Enter Oct 15 – Nov 15, 2025. Winner announced Nov 18, 2025.",
+    "endDate": "2025-11-16T04:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
-    "entryFormCtaText": "Enter Game Night Draw!",
-    "name": "Blue Jays Summer Game Night Giveaway",
-    "successModalHeaderText": "You’re in the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Toronto Blue Jays Summer Game Night</strong> is in! Winner will be announced July 29th and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep July 29th on your calendar—you could be on your way to the ballpark!"
+    "entryFormCtaText": "Enter My Name Now!",
+    "name": "Wine Night Giveaway",
+    "successModalHeaderText": "You're In the Running!",
+    "successModalMainMessage": "Your entry for the <strong>Leaside Wine Night Experience</strong> is in. We will draw on Nov 18, 2025 and email the winner. Good luck!",
+    "successModalEmailPrompt": "We email the winner on Nov 18, 2025. Check your inbox and spam, and follow us on Instagram and Facebook for the post."
   },
   "settings": {
     "confettiColors": [
-      "#0055A4",
-      "#003366",
+      "#7B2141",
+      "#C6A15B",
       "#FFFFFF"
     ],
     "showCountdownInHero": true,
     "theme": "dark",
-    "primaryColorOverride": "#0055A4",
+    "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "/.netlify/functions/admin-update",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
     "followUpBossEmail": ""
   },
   "thankYouPage": {
     "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Toronto Blue Jays Summer Game Night</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
-    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
+    "headerText": "You're In the Running!",
+    "mainMessage": "Your entry for the <strong>Leaside Wine Night Experience</strong> is in. We will draw on Nov 18, 2025 and email the winner. Good luck!",
+    "socialPromptText": "Follow us on Instagram and Facebook for the winner post and new local giveaways."
   },
   "prize": {
     "images": [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/hg2dnqs7yhrm80cqhn79nt68j8.jpg",
-        "alt": "Cheering fans at a Blue Jays baseball game"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/9vf1mk4rr5rmc0csrqz8gc55pw.jpg",
+        "alt": "Two wine glasses on a cozy table at a Leaside wine bar"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bk4ehhbc35rmc0cqhn78wzw7t8.jpg",
-        "alt": "Couple enjoying a summer night at the Rogers Centre"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/1z4h0s0059rma0csrqzt3mj9dr.jpg",
+        "alt": "Warm, modern dining room with shared plates in Leaside"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/w99mghnswxrm80cqhn7bm108b0.jpg",
-        "alt": "Exciting baseball action between Toronto Blue Jays and Texas Rangers"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/nz64nsjyxdrmc0csrqzt7cb0tm.jpg",
+        "alt": "Couple laughing over dinner and wine"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wzcq768e4drme0cqhn7v49g7tr.jpg",
-        "alt": "Tickets for a premier Blue Jays game experience"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/k7za2y5wddrme0csrqzvmzzqy8.jpg",
+        "alt": "Night out on Bayview Avenue in Leaside"
       }
     ],
     "includedItems": [
       {
-        "icon": "fas fa-baseball-ball",
-        "text": "Two premium tickets to Blue Jays vs. Rangers"
+        "icon": "fas fa-wine-glass-alt",
+        "text": "$250 gift card to The Daughter wine bar"
       },
       {
-        "icon": "fas fa-user-friends",
-        "text": "Perfect for couples, friends, or a special family outing"
+        "icon": "fas fa-utensils",
+        "text": "$100 gift card to Domaine Mamo"
       },
       {
-        "icon": "fas fa-star",
-        "text": "$400 total value - for a big-time experience"
+        "icon": "fas fa-taxi",
+        "text": "$50 Uber credit for safe, easy rides"
       },
       {
-        "icon": "fas fa-city",
-        "text": "Catch live baseball in downtown Toronto"
+        "icon": "fas fa-map-marker-alt",
+        "text": "All in Leaside on Bayview – local and loved"
       },
       {
-        "icon": "fas fa-calendar-day",
-        "text": "Game date: Summer 2025, Texas Rangers matchup"
+        "icon": "fas fa-gift",
+        "text": "Winner can swap the split to one spot if preferred"
       }
     ],
-    "name": "Toronto Blue Jays Summer Game Night Experience",
-    "value": "$400 Value",
-    "description": "Imagine you and your favorite person cheering in the stands as the Blue Jays play live against the Texas Rangers! Feel the rush, eat ballpark snacks, and enjoy a big summer night in the city. This giveaway gets you <span class='highlight'>two premium tickets</span> for the best seats in the house. Whether it’s a fun date or a night with a friend, you’ll remember it all year long.",
-    "limitedTimeOfferText": "Summer Only - Limited Entry!",
-    "ctaButtonText": "I Want These Game Tickets!"
+    "name": "Leaside Wine Night Experience",
+    "value": "$400+ Value",
+    "description": "Picture this. Cozy seats. Warm light. Great wine. Easy laughs. You pick the vibe. The Daughter for wine and bites. Or Domaine Mamo for that friendly, elevated menu. We cover the night so you can relax and connect. It’s your turn to feel special close to home.",
+    "limitedTimeOfferText": "Fall Giveaway – Ends Nov 15!",
+    "ctaButtonText": "I Want This Night Out!"
   },
   "howToEnter": {
     "steps": [
       {
         "icon": "fas fa-edit",
-        "title": "Fill Out the Form",
-        "description": "Enter your name and email in the quick form below—done in under 30 seconds!"
+        "title": "Fill the Form",
+        "description": "Add your name and email. It takes 30 seconds."
       },
       {
         "icon": "fas fa-question-circle",
-        "title": "Answer Simple Questions",
-        "description": "Tell us a little about who you’d bring and why you’d love this summer baseball night."
+        "title": "Answer 4 Quick Questions",
+        "description": "Tell us about your home needs. Simple and fast."
+      },
+      {
+        "icon": "fas fa-share-alt",
+        "title": "Share for Good Karma",
+        "description": "Tell a friend who loves Leaside nights out."
       },
       {
         "icon": "fas fa-trophy",
-        "title": "Get Your Chance to Win!",
-        "description": "That’s it! Watch your inbox—winner picked July 29th."
+        "title": "Wait for the Draw",
+        "description": "We pick the winner on Nov 18, 2025."
       }
     ],
     "highlights": [
       {
         "icon": "fas fa-clock",
-        "text": "Super quick and easy entry"
+        "text": "30-second entry"
       },
       {
-        "icon": "fas fa-gift",
-        "text": "No purchase needed"
+        "icon": "fas fa-dollar-sign",
+        "text": "100% free to enter"
       },
       {
         "icon": "fas fa-heart",
-        "text": "Great night out with someone special"
+        "text": "Perfect date night"
       },
       {
-        "icon": "fas fa-star",
-        "text": "Random, fair winner pick"
+        "icon": "fas fa-bolt",
+        "text": "Limited time only"
+      },
+      {
+        "icon": "fas fa-shield-alt",
+        "text": "Fair, random draw"
+      },
+      {
+        "icon": "fas fa-map-marker-alt",
+        "text": "Local Leaside love"
       }
     ]
   },
   "rules": {
     "finePrintText": "Please read the fine print before entering. Anyone can enter.",
-    "showTipsSection": true,
+    "showTipsSection": false,
     "faq": [
       {
-        "q": "Who can enter this giveaway?",
-        "a": "Anyone 18 or older living in Ontario can enter. Couples, families, and friends are welcome!"
+        "q": "Who can enter?",
+        "a": "Anyone 18+ who lives in Ontario can enter. One entry per person."
       },
       {
-        "q": "How will I know if I win?",
-        "a": "Winner will get an email from jk@property.ca on July 29th. Check your inbox and spam!"
+        "q": "Do I have to buy anything?",
+        "a": "No. It is free to enter. No purchase needed."
       },
       {
-        "q": "Do I have to pay for anything?",
-        "a": "Nope—the tickets are totally free! Just show up and enjoy the game."
+        "q": "Can I choose the restaurant?",
+        "a": "Yes. You can use both gift cards as listed or ask us to put the full amount to one spot."
       },
       {
-        "q": "What if I can’t make the game?",
-        "a": "If you can’t attend, let us know so someone else can use this amazing prize."
+        "q": "When does this end?",
+        "a": "Entries close Nov 15, 2025 at 11:59 PM ET. We draw on Nov 18, 2025."
+      },
+      {
+        "q": "How do I know if I win?",
+        "a": "We email you from chantel@chantelcrispteam.com. We will also post on Instagram and Facebook."
+      },
+      {
+        "q": "Is this sponsored by The Daughter or Domaine Mamo?",
+        "a": "No. This giveaway is by the Chantel Crisp Team. It is not sponsored by or tied to the venues."
       }
     ],
-    "tips": [
-      "Double-check your email for typos—make sure you can be reached",
-      "Think of who you'd take for this special night",
-      "Tell family and friends to enter too",
-      "Follow Julian Kashani on Instagram or Facebook for the winner post"
-    ],
+    "tips": [],
     "fairSelectionInfo": {
-      "title": "Fair and Random Drawing",
-      "text": "Every entry has the same fair shot! Winner is chosen by a random draw. No tricks, just luck."
+      "title": "Fair and Random Winner Selection",
+      "text": "We use a random draw tool. Every entry has the same chance. One winner. No tricks."
     },
     "importantNotice": {
-      "title": "Watch Your Email",
-      "text": "Only the email you use here will be contacted. Be sure to check your spam, too, on July 29th."
+      "title": "Winner Notice",
+      "text": "We email the winner on Nov 18, 2025. Check your inbox and spam. We will also share on our social pages."
     }
   },
   "entryForm": {
     "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin&text=Win%20Toronto%20Blue%20Jays%20Tickets%20for%20an%20Epic%20Summer%20Game%20Night!"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FGiveaway-219.netlify.app",
+      "twitter": "https://twitter.com/intent/tweet?url=http%3A%2F%2FGiveaway-219.netlify.app&text=Win%20a%20%24400%20Leaside%20Wine%20Night%20%E2%80%93%20Free%20Entry%21"
     },
-    "subtitle": "Enter your details below for a shot at your dream Blue Jays night out!",
-    "entryCountText": "Hundreds of Toronto fans are already in—don’t miss your chance!",
-    "socialSharePrompt": "Share with your friends—make it a race to win!"
+    "subtitle": "Enter your details below for your chance to win this $400 Leaside Wine Night!",
+    "entryCountText": "Join your neighbours! Entries are rolling in.",
+    "socialSharePrompt": "Share this with a friend who loves Bayview nights out:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445840887_0",
+      "id": "q_auto_1757969005264_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -192,7 +208,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_1",
+      "id": "q_auto_1757969005264_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -200,8 +216,8 @@ const config = {
           "text": "Yes, sometime in 2025"
         },
         {
-          "value": "Yes, in the next 1–2 years",
-          "text": "Yes, in the next 1–2 years"
+          "value": "Yes, in the next 1 - 2 years",
+          "text": "Yes, in the next 1 - 2 years"
         },
         {
           "value": "Not at the moment",
@@ -214,7 +230,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_2",
+      "id": "q_auto_1757969005264_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -238,31 +254,33 @@ const config = {
   ],
   "footerContact": {
     "social": {
-      "facebook": "https://www.facebook.com/JulianKashaniRealtor",
-      "instagram": "http://instagram.com/juliankashani"
+      "facebook": "https://www.facebook.com/chantelcrispteam",
+      "instagram": "https://www.instagram.com/chantelcrispteam/"
     },
     "agentContact": {
-      "name": "Julian Kashani",
+      "name": "Chantel Crisp",
       "title": "Real Estate Agent",
-      "phone": "(416) 837-7775",
-      "email": "jk@property.ca"
+      "phone": "+1 (647) 967-9677",
+      "email": "chantel@chantelcrispteam.com"
     },
-    "footerDisclaimer": "This giveaway is sponsored by Julian Kashani, REALTOR®, and is not sponsored by or affiliated with the Toronto Blue Jays or Texas Rangers. Winner selected at random from entries received by July 25th, 2025. Must be 18+ and an Ontario resident to enter.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
-    "secondaryLogoAlt": "Property.Ca Brokerage Logo",
-    "organizerName": "Julian Kashani",
-    "brokerageName": "Property.Ca",
-    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "email": "jk@property.ca",
-    "phone": "(416) 837-7775",
-    "copyrightOwner": "Property.Ca"
+    "footerDisclaimer": "This giveaway is sponsored by the Chantel Crisp Team at Royal LePage Signature and is not affiliated with The Daughter, Domaine Mamo, McSorley’s, Meta, or Uber. Contest ends Nov 15, 2025. Winner selected at random from eligible Ontario entries. Must be 18+. One entry per person. No purchase needed. Void where prohibited.",
+    "organizerLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/899b761c-e878-45c9-a365-bbb31a265234/signaturelogo-e-8n10eg.png",
+    "secondaryLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/db372633-3c3e-4248-8b4b-268d191751a2/chantel.png",
+    "secondaryLogoAlt": "Chantel Crisp Team Headshot",
+    "organizerName": "Chantel Crisp Team",
+    "brokerageName": "Royal LePage Signature",
+    "address": "8 Sampson Mews, #201, Toronto, ON, M3C 0H5, Canada",
+    "email": "chantel@chantelcrispteam.com",
+    "phone": "+1 (647) 967-9677",
+    "copyrightOwner": "Chantel Crisp Team",
+    "aboutText": "We put the real in real estate. AUTHENTIC. DILIGENT. INVESTED. You get top service, clear updates, and a fun process. Our trusted partners are the best in the city.",
+    "communityNote": "Proud to serve Leaside, Bayview, Davisville, and East York. We love local. We support local."
   },
   "deploymentInfo": {
-    "repoName": "Giveaway-558",
-    "repoUrl": "https://github.com/arslvn93/Giveaway-558",
-    "netlifyUrl": "http://Giveaway-558.netlify.app",
+    "repoName": "Giveaway-219",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-219",
+    "netlifyUrl": "http://Giveaway-219.netlify.app",
     "netlifyId": "",
-    "tag": "Blue Jays Giveaway"
+    "tag": "Leaside Wine Night Giveaway"
   }
 };
