@@ -28,16 +28,10 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You're In the Running!",
-    "mainMessage": "Your entry for the <strong>Leaside Wine Night Experience</strong> is in. We will draw on Nov 18, 2025 and email the winner. Good luck!",
-    "socialPromptText": "Follow us on Instagram and Facebook for the winner post and new local giveaways."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -137,8 +131,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
-    "showTipsSection": false,
     "faq": [
       {
         "q": "Who can enter?",
@@ -166,6 +158,8 @@ const config = {
       }
     ],
     "tips": [],
+    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
+    "showTipsSection": false,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Selection",
       "text": "We use a random draw tool. Every entry has the same chance. One winner. No tricks."
@@ -186,7 +180,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757969005264_0",
+      "id": "q_auto_1760554157117_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -208,7 +202,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_1",
+      "id": "q_auto_1760554157117_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -230,7 +224,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_2",
+      "id": "q_auto_1760554157117_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -252,6 +246,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You're In the Running!",
+    "mainMessage": "Your entry for the <strong>Leaside Wine Night Experience</strong> is in. We will draw on Nov 18, 2025 and email the winner. Good luck!",
+    "socialPromptText": "Follow us on Instagram and Facebook for the winner post and new local giveaways."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/chantelcrispteam",
@@ -264,17 +270,15 @@ const config = {
       "email": "chantel@chantelcrispteam.com"
     },
     "footerDisclaimer": "This giveaway is sponsored by the Chantel Crisp Team at Royal LePage Signature and is not affiliated with The Daughter, Domaine Mamo, McSorley’s, Meta, or Uber. Contest ends Nov 15, 2025. Winner selected at random from eligible Ontario entries. Must be 18+. One entry per person. No purchase needed. Void where prohibited.",
-    "organizerLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/899b761c-e878-45c9-a365-bbb31a265234/signaturelogo-e-8n10eg.png",
-    "secondaryLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/db372633-3c3e-4248-8b4b-268d191751a2/chantel.png",
+    "organizerLogoUrl": "https://iss-cdn.myrealpage.com/uBtQbO9coV-y-6tbdDIguZiCZ20itWoCgcYHU84lg5s/rs:auto:760:0:0/g:sm/bG9jYWw6Ly8vZGF0YS9hcHAvd3BzL2MvaC9hL24vY2hhbnRlbC1jcmlzcC5teXJlYWxwYWdld2Vic2l0ZS5jb20vX21lZGlhL3F1aWNrLXVwbG9hZHMveHJkcmNzb3p1ZGR1ICgxKS5wbmc_dD0xNzUwODIzMjg4NDEx?t=1750823288411",
+    "secondaryLogoUrl": "https://collingwoodlifestyle.ca/_media/site-logo-1737685476954.png",
     "secondaryLogoAlt": "Chantel Crisp Team Headshot",
     "organizerName": "Chantel Crisp Team",
     "brokerageName": "Royal LePage Signature",
     "address": "8 Sampson Mews, #201, Toronto, ON, M3C 0H5, Canada",
     "email": "chantel@chantelcrispteam.com",
     "phone": "+1 (647) 967-9677",
-    "copyrightOwner": "Chantel Crisp Team",
-    "aboutText": "We put the real in real estate. AUTHENTIC. DILIGENT. INVESTED. You get top service, clear updates, and a fun process. Our trusted partners are the best in the city.",
-    "communityNote": "Proud to serve Leaside, Bayview, Davisville, and East York. We love local. We support local."
+    "copyrightOwner": "Chantel Crisp Team"
   },
   "deploymentInfo": {
     "repoName": "Giveaway-219",
