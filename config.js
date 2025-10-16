@@ -27,7 +27,7 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
-    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
+    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/v02ei9FXpFUpRxcfgGe3/webhook-trigger/Q4tdboQmNhhXVxf1aPHh",
     "facebookPixelId": "614990424843844",
     "salesGeniusAppApi": "",
     "followUpBossEmail": "",
@@ -180,7 +180,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1760633221536_0",
+      "id": "q_auto_1760633291343_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -202,7 +202,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1760633221536_1",
+      "id": "q_auto_1760633291343_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -224,7 +224,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1760633221536_2",
+      "id": "q_auto_1760633291343_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -285,6 +285,6 @@ const config = {
     "repoUrl": "https://github.com/arslvn93/Giveaway-219",
     "netlifyUrl": "http://Giveaway-219.netlify.app",
     "netlifyId": "",
-    "tag": "Leaside Wine Night Giveaway"
+    "tag": "Wine Night Giveaway"
   }
 };
