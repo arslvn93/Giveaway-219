@@ -6,7 +6,7 @@ const config = {
   },
   "giveaway": {
     "heroHeadline": "Win <span class='highlight'>A Wine Night for Two</span> in Leaside!",
-    "heroSubheadline": "Dine and sip at The Daughter or Domaine Mamo. $400 value. Fast, free entry. Local winners only. Don’t miss out.",
+    "heroSubheadline": "Dine and sip at The Daughter or Domaine Mamo. $350 value. Fast, free entry. Local winners only. Don’t miss out.",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/pckweehn29rme0csrqza926vz0.jpg",
     "promotionDates": "Enter Oct 15 – Nov 15, 2025. Winner announced Nov 18, 2025.",
     "endDate": "2025-11-16T04:59:00.000Z",
@@ -29,10 +29,10 @@ const config = {
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/v02ei9FXpFUpRxcfgGe3/webhook-trigger/Q4tdboQmNhhXVxf1aPHh",
     "facebookPixelId": "614990424843844",
+    "turnstileSiteKey": "0x4AAAAAAB5SpbWeBo7JnEIs",
     "salesGeniusAppApi": "",
     "followUpBossEmail": "",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
-    "turnstileSiteKey": "0x4AAAAAAB5SpbWeBo7JnEIs"
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -56,7 +56,7 @@ const config = {
     "includedItems": [
       {
         "icon": "fas fa-wine-glass-alt",
-        "text": "$250 gift card to The Daughter wine bar"
+        "text": "$200 gift card to The Daughter wine bar"
       },
       {
         "icon": "fas fa-utensils",
@@ -76,7 +76,7 @@ const config = {
       }
     ],
     "name": "Leaside Wine Night Experience",
-    "value": "$400+ Value",
+    "value": "$350+ Value",
     "description": "Picture this. Cozy seats. Warm light. Great wine. Easy laughs. You pick the vibe. The Daughter for wine and bites. Or Domaine Mamo for that friendly, elevated menu. We cover the night so you can relax and connect. It’s your turn to feel special close to home.",
     "limitedTimeOfferText": "Fall Giveaway – Ends Nov 15!",
     "ctaButtonText": "I Want This Night Out!"
@@ -175,13 +175,13 @@ const config = {
       "facebook": "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FGiveaway-219.netlify.app",
       "twitter": "https://twitter.com/intent/tweet?url=http%3A%2F%2FGiveaway-219.netlify.app&text=Win%20a%20%24400%20Leaside%20Wine%20Night%20%E2%80%93%20Free%20Entry%21"
     },
-    "subtitle": "Enter your details below for your chance to win this $400 Leaside Wine Night!",
+    "subtitle": "Enter your details below for your chance to win this $350 Leaside Wine Night!",
     "entryCountText": "Join your neighbours! Entries are rolling in.",
     "socialSharePrompt": "Share this with a friend who loves Bayview nights out:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1760633291343_0",
+      "id": "q_auto_1761770387866_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -203,7 +203,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1760633291343_1",
+      "id": "q_auto_1761770387866_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -225,7 +225,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1760633291343_2",
+      "id": "q_auto_1761770387866_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
